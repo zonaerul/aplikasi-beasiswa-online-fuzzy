@@ -1,0 +1,4 @@
+<h3>Aplikasi Beasiswa Online</h3> adalah sebuah platform digital yang dirancang untuk mendukung proses pemilihan dan penerimaan beasiswa secara efisien dan akurat. Aplikasi ini menggunakan **sistem fuzzy** untuk mengelola berbagai variabel dan kriteria penilaian yang kompleks, seperti prestasi akademik, kondisi ekonomi, dan aktivitas non-akademik. Sistem fuzzy membantu memberikan keputusan yang lebih fleksibel dan mendekati realitas dengan mempertimbangkan nilai-nilai yang tidak bersifat absolut. Dengan aplikasi ini, proses seleksi beasiswa menjadi lebih transparan, cepat, dan dapat diakses oleh calon penerima beasiswa secara online.
+<br>
+<h3>Pembuat</h3>
+Chaerul Wahyu Iman Syah

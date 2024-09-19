@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"
+        app:title="Hi, User"
+        app:titleTextColor="@color/white"
+        android:background="@color/skyblue">
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar">
+
+        <LinearLayout
+            android:id="@+id/layout_biodata"
+            android:background="@drawable/shape_border"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="100dp">
+
+            <ImageView
+                android:padding="10dp"
+                android:scaleType="fitXY"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/placeholder"/>
+            <LinearLayout
+                android:layout_margin="20dp"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bio Data"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:id="@+id/title_home"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="di harapkan bagi pendaftar harus melengkapi data diri."
+                    android:textSize="15dp"
+                    android:id="@+id/title_sub"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@drawable/shape_border"
+            android:layout_margin="10dp"
+            android:id="@+id/layout_biodata_orangtua"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="100dp">
+
+            <ImageView
+                android:padding="10dp"
+                android:scaleType="fitXY"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/placeholder"/>
+            <LinearLayout
+                android:layout_margin="20dp"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bio data orang tua"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:id="@+id/title_home_2"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Isi informasi data orang tua anda."
+                    android:textSize="15dp"
+                    android:id="@+id/title_sub_2"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@drawable/shape_border"
+            android:layout_margin="10dp"
+            android:id="@+id/informasi_beasiswa"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="100dp">
+
+            <ImageView
+                android:padding="10dp"
+                android:scaleType="fitXY"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/placeholder"/>
+            <LinearLayout
+                android:layout_margin="20dp"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Informasi Beasiswa"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:id="@+id/title_home_2"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lihat informasi beasiswa terbaru."
+                    android:textSize="15dp"
+                    android:id="@+id/title_sub_2"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
